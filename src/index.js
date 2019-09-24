@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Cat from './cat.jpg';
+import Data from './data.xml';
 
 function component() {
   const element = document.createElement('div');
@@ -13,6 +14,8 @@ function component() {
   
   element.appendChild(cat);
 
+  console.log(Data);
+  
   return element;
 }
 
