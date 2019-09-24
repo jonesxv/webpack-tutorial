@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Biko';
+  src: url('./Biko_Regular.otf') format('otf');
+}
+
+.hello {
+  color: red;
+  font-family: 'Biko';
+  background: url('./cat.jpg');
+}
